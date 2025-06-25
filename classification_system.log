@@ -1,0 +1,646 @@
+2025-06-19 23:30:13,066 - dag_workflow - INFO - Building classification DAG...
+2025-06-19 23:30:13,068 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-19 23:30:16,703 - model_wrapper - INFO - Model loaded successfully
+2025-06-19 23:30:16,703 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-19 23:30:17,198 - model_wrapper - INFO - Model loaded successfully
+2025-06-19 23:30:17,199 - dag_workflow - INFO - DAG built successfully
+2025-06-19 23:31:26,374 - dag_nodes - INFO - [InferenceNode] Processing: the movie i loved so much!...
+2025-06-19 23:31:26,696 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.6%
+2025-06-19 23:31:26,696 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-19 23:32:35,438 - dag_nodes - INFO - [InferenceNode] Processing: the movie was kind of okay i guess...
+2025-06-19 23:32:35,475 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 73.1%
+2025-06-19 23:32:35,475 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (73.1% >= 70.0%)
+2025-06-19 23:33:36,415 - dag_nodes - INFO - [InferenceNode] Processing: the acting was flat,but the visuals were decent....
+2025-06-19 23:33:36,460 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 74.6%
+2025-06-19 23:33:36,473 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (74.6% >= 70.0%)
+2025-06-19 23:34:14,069 - dag_nodes - INFO - [InferenceNode] Processing: Meh...
+2025-06-19 23:34:14,165 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 60.2%
+2025-06-19 23:34:14,165 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (60.2% < 70.0%). Triggering fallback...
+2025-06-19 23:34:14,165 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-19 23:34:49,456 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-19 23:37:13,241 - dag_nodes - INFO - [InferenceNode] Processing: the movie was absolutely amazing and I loved every...
+2025-06-19 23:37:13,308 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-19 23:37:13,308 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-19 23:37:42,624 - dag_nodes - INFO - [InferenceNode] Processing: The acting was poor and the dialogue felt forced a...
+2025-06-19 23:37:42,674 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 97.8%
+2025-06-19 23:37:42,674 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (97.8% >= 70.0%)
+2025-06-19 23:37:56,478 - dag_nodes - INFO - [InferenceNode] Processing: Is this a movie?...
+2025-06-19 23:37:56,545 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 80.4%
+2025-06-19 23:37:56,545 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (80.4% >= 70.0%)
+2025-06-19 23:38:07,402 - dag_nodes - INFO - [InferenceNode] Processing: what a wonderful movie...
+2025-06-19 23:38:07,441 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.8%
+2025-06-19 23:38:07,441 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.8% >= 70.0%)
+2025-06-19 23:38:17,550 - dag_nodes - INFO - [InferenceNode] Processing: what?...
+2025-06-19 23:38:17,623 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 74.9%
+2025-06-19 23:38:17,623 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (74.9% >= 70.0%)
+2025-06-19 23:38:23,157 - dag_nodes - INFO - [InferenceNode] Processing: i dont know...
+2025-06-19 23:38:23,209 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 73.7%
+2025-06-19 23:38:23,209 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (73.7% >= 70.0%)
+2025-06-19 23:38:27,692 - dag_nodes - INFO - [InferenceNode] Processing: I...
+2025-06-19 23:38:27,741 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 52.3%
+2025-06-19 23:38:27,741 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (52.3% < 70.0%). Triggering fallback...
+2025-06-19 23:38:27,741 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-19 23:39:08,448 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-19 23:39:08,448 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-19 23:39:15,228 - dag_nodes - INFO - [InferenceNode] Processing: quit...
+2025-06-19 23:39:15,291 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 73.3%
+2025-06-19 23:39:15,291 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (73.3% >= 70.0%)
+2025-06-20 18:55:02,700 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 18:55:02,706 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 18:55:07,885 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 18:55:07,899 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 18:55:08,574 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 18:55:08,579 - dag_workflow - INFO - DAG built successfully
+2025-06-20 18:55:38,846 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 18:55:39,222 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 18:55:39,222 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 19:03:09,113 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:03:09,113 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:03:12,607 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:03:12,612 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:03:13,737 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:03:13,737 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:03:13,851 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:03:14,321 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:03:14,330 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:06:31,981 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:06:31,981 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:06:34,014 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:06:34,014 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:06:34,608 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:06:34,610 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:06:34,627 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:06:34,986 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:06:34,986 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:09:26,779 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:09:26,779 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:09:27,881 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:09:27,882 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:09:28,478 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:09:28,480 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:09:28,489 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:09:28,563 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:09:28,564 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:12:24,165 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:12:24,165 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:12:25,178 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:12:25,178 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:12:25,742 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:12:25,743 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:12:25,758 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:12:25,829 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:12:25,831 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:13:55,753 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:13:55,753 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:13:57,397 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:13:57,397 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:13:58,156 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:13:58,156 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:13:58,189 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:13:58,334 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:13:58,339 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:15:08,429 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:15:08,429 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:15:09,636 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:15:09,636 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:15:10,389 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:15:10,389 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:15:10,397 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:15:10,529 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:15:10,531 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:16:51,181 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:16:51,181 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:16:52,237 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:16:52,237 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:16:53,214 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:16:53,214 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:16:53,224 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:16:53,295 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:16:53,297 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:22:19,597 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:22:19,597 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:22:20,936 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:22:20,936 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:22:22,208 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:22:22,210 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:22:22,228 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:22:22,311 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:22:22,314 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:23:59,241 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:23:59,241 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:24:00,651 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:24:00,651 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:24:01,409 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:24:01,409 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:24:01,414 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:24:01,491 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:24:01,491 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:25:35,433 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:25:35,433 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:25:37,720 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:25:37,720 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:25:38,222 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:25:38,222 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:25:38,231 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:25:38,292 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:25:38,292 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:26:55,895 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:26:55,895 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:26:56,905 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:26:56,905 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:26:57,486 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:26:57,486 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:26:57,490 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:26:57,562 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:26:57,567 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:28:54,921 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:28:54,921 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:28:56,040 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:28:56,041 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:28:56,823 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:28:56,826 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:28:56,851 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:28:56,983 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:28:56,983 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:32:42,565 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:32:42,565 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:32:44,051 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:32:44,051 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:32:44,598 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:32:44,598 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:32:44,610 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:32:44,716 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:32:44,716 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:33:59,122 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:33:59,122 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:34:00,491 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:34:00,491 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:34:00,994 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:34:00,994 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:34:01,006 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:34:01,071 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:34:01,071 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:36:06,123 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:36:06,123 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:36:07,172 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:36:07,172 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:36:07,691 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:36:07,691 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:36:07,701 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:36:07,783 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:36:07,783 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:38:29,830 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:38:29,830 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:38:30,927 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:38:30,927 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:38:31,628 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:38:31,631 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:38:31,632 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:38:31,706 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:38:31,706 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:39:51,821 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:39:51,821 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:39:53,303 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:39:53,305 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:39:53,848 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:39:53,854 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:39:53,862 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:39:53,949 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:39:53,950 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:41:52,544 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:41:52,544 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:41:53,640 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:41:53,640 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:41:54,208 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:41:54,208 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:41:54,220 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:41:54,290 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:41:54,290 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:45:42,819 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:45:42,819 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:45:43,834 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:45:43,834 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:45:44,811 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:45:44,812 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:45:44,812 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:45:44,887 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:45:44,887 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:45:48,909 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 19:45:49,016 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:45:49,016 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:45:49,016 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 19:45:49,059 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 19:45:49,059 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 19:45:49,067 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 19:45:49,108 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 19:45:49,108 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 19:45:49,108 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 19:45:49,185 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 19:45:49,185 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 19:45:49,185 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 19:45:49,234 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 19:45:49,234 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 19:47:39,282 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:47:39,282 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:47:40,375 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:47:40,375 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:47:41,123 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:47:41,123 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:47:41,137 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:47:41,220 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:47:41,249 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:47:45,274 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 19:47:45,322 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:47:45,324 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:47:45,330 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 19:47:45,367 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 19:47:45,367 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 19:47:45,367 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 19:47:45,421 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 19:47:45,421 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 19:47:45,421 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 19:47:45,468 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 19:47:45,468 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 19:47:45,468 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 19:47:45,518 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 19:47:45,518 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 19:48:49,516 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:48:49,516 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:48:50,632 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:48:50,637 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:48:51,190 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:48:51,190 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:49:14,160 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring...
+2025-06-20 19:49:14,248 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.0%
+2025-06-20 19:49:14,248 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.0% >= 70.0%)
+2025-06-20 19:50:09,670 - dag_nodes - INFO - [InferenceNode] Processing: Meh...
+2025-06-20 19:50:09,814 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 60.2%
+2025-06-20 19:50:09,814 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (60.2% < 70.0%). Triggering fallback...
+2025-06-20 19:50:09,834 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 19:51:53,027 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 19:51:53,027 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 19:52:00,890 - dag_nodes - INFO - [InferenceNode] Processing: done...
+2025-06-20 19:52:00,983 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 53.0%
+2025-06-20 19:52:00,983 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (53.0% < 70.0%). Triggering fallback...
+2025-06-20 19:52:00,983 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 19:52:04,233 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-20 19:52:35,956 - dag_nodes - INFO - [InferenceNode] Processing: The movie was good but there are flaws in the movi...
+2025-06-20 19:52:36,059 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 85.9%
+2025-06-20 19:52:36,059 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (85.9% >= 70.0%)
+2025-06-20 19:52:54,184 - dag_nodes - INFO - [InferenceNode] Processing: The movie hits ball out of the park...
+2025-06-20 19:52:54,231 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 79.0%
+2025-06-20 19:52:54,233 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (79.0% >= 70.0%)
+2025-06-20 19:53:11,087 - dag_nodes - INFO - [InferenceNode] Processing: I give rating 4.5/5 for this movie...
+2025-06-20 19:53:11,168 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 90.2%
+2025-06-20 19:53:11,168 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (90.2% >= 70.0%)
+2025-06-20 19:54:45,331 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:54:45,331 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:54:47,617 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:54:47,617 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:54:48,406 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:54:48,410 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:55:19,358 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 19:55:19,503 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 19:55:19,503 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 19:58:21,757 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:58:21,758 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:58:22,737 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:58:22,737 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:58:23,375 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:58:23,375 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:58:23,386 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:58:23,461 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:58:23,463 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:59:46,547 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 19:59:46,547 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:59:48,026 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:59:48,026 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 19:59:48,971 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 19:59:48,977 - dag_workflow - INFO - DAG built successfully
+2025-06-20 19:59:48,981 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 19:59:49,063 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:59:49,065 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:59:53,124 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 19:59:53,182 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 19:59:53,190 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 19:59:53,196 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 19:59:53,229 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 19:59:53,234 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 19:59:53,239 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 19:59:53,276 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 19:59:53,276 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 19:59:53,285 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 19:59:53,317 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 19:59:53,317 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 19:59:53,317 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 19:59:53,355 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 19:59:53,355 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:00:13,981 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:00:13,981 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:00:15,054 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:00:15,054 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:00:15,632 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:00:15,632 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:00:30,421 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:00:30,509 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:00:30,509 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:05:04,609 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:05:04,609 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:05:05,382 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:05:05,385 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:05:05,851 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:05:05,851 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:05:05,866 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 20:05:05,918 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:05:05,918 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:05:09,952 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 20:05:10,027 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:05:10,028 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:05:10,035 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 20:05:10,066 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 20:05:10,066 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 20:05:10,066 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 20:05:10,088 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 20:05:10,088 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 20:05:10,101 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 20:05:10,116 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 20:05:10,116 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 20:05:10,137 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 20:05:10,164 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:05:10,165 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:07:34,382 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:07:34,382 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:07:35,209 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:07:35,209 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:07:35,664 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:07:35,664 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:07:35,684 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 20:07:35,733 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:07:35,733 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:07:39,750 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 20:07:39,819 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:07:39,820 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:07:39,827 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 20:07:39,864 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 20:07:39,866 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 20:07:39,873 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 20:07:39,907 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 20:07:39,907 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 20:07:39,907 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 20:07:39,940 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 20:07:39,940 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 20:07:39,948 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 20:07:39,967 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:07:39,981 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:09:18,983 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:09:18,983 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:09:19,763 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:09:19,763 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:09:20,259 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:09:20,261 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:09:20,264 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 20:09:20,316 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:09:20,316 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:09:24,350 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 20:09:24,415 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:09:24,417 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:09:24,425 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 20:09:24,451 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 20:09:24,451 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 20:09:24,469 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 20:09:24,499 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 20:09:24,500 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 20:09:24,507 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 20:09:24,539 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 20:09:24,540 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 20:09:24,547 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 20:09:24,567 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:09:24,567 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:14:42,022 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:14:42,022 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:14:42,949 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:14:42,949 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:14:43,585 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:14:43,585 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:14:43,596 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 20:14:43,674 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:14:43,674 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:14:51,239 - dag_nodes - INFO - [InferenceNode] Processing: I absolutely loved this fantastic movie!...
+2025-06-20 20:14:51,302 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:14:51,302 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:14:51,318 - dag_nodes - INFO - [InferenceNode] Processing: This film was boring and terrible....
+2025-06-20 20:14:51,352 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.6%
+2025-06-20 20:14:51,352 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.6% >= 70.0%)
+2025-06-20 20:14:51,358 - dag_nodes - INFO - [InferenceNode] Processing: The movie was pretty good overall....
+2025-06-20 20:14:51,389 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.8%
+2025-06-20 20:14:51,399 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.8% >= 70.0%)
+2025-06-20 20:14:51,410 - dag_nodes - INFO - [InferenceNode] Processing: What a masterpiece of cinema!...
+2025-06-20 20:14:51,450 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 20:14:51,450 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 20:14:51,464 - dag_nodes - INFO - [InferenceNode] Processing: I hated every minute of this awful film....
+2025-06-20 20:14:51,500 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:14:51,500 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:15:08,331 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:15:08,333 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:15:09,308 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:15:09,308 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:15:09,884 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:15:09,884 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:15:23,823 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:15:23,905 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:15:23,905 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:23:05,388 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:23:05,388 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:23:06,422 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:23:06,422 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:23:07,302 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:23:07,303 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:23:07,303 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:23:07,391 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:23:07,396 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (99.1% < 99.5%). Triggering fallback...
+2025-06-20 20:23:07,398 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:24:42,800 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-20 20:24:43,887 - dag_nodes - INFO - [InferenceNode] Processing: This film was okay I guess....
+2025-06-20 20:24:43,949 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.6%
+2025-06-20 20:24:43,949 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (88.6% < 99.5%). Triggering fallback...
+2025-06-20 20:24:43,949 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:25:17,646 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-20 20:25:18,706 - dag_nodes - INFO - [InferenceNode] Processing: Not sure how I feel about this movie....
+2025-06-20 20:25:18,828 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 95.8%
+2025-06-20 20:25:18,833 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (95.8% < 99.5%). Triggering fallback...
+2025-06-20 20:25:18,833 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:25:44,997 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:25:45,004 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 20:25:46,044 - dag_nodes - INFO - [InferenceNode] Processing: The acting was good but the plot was confusing....
+2025-06-20 20:25:46,137 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 94.0%
+2025-06-20 20:25:46,137 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (94.0% < 99.5%). Triggering fallback...
+2025-06-20 20:25:46,137 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:25:48,009 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:25:48,027 - dag_nodes - INFO - [FallbackNode] Backup prediction: POSITIVE | Confidence: 60.0%
+2025-06-20 20:26:01,210 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:26:01,210 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:26:02,219 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:26:02,219 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:26:02,783 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:26:02,783 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:26:19,010 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:26:19,104 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:26:19,104 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:31:54,500 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:31:54,500 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:31:55,378 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:31:55,378 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:31:55,878 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:31:55,878 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:31:55,882 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:31:55,959 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:31:55,960 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (99.1% < 99.5%). Triggering fallback...
+2025-06-20 20:31:55,961 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:32:36,102 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-20 20:32:37,135 - dag_nodes - INFO - [InferenceNode] Processing: This film was okay I guess....
+2025-06-20 20:32:37,201 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.6%
+2025-06-20 20:32:37,202 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (88.6% < 99.5%). Triggering fallback...
+2025-06-20 20:32:37,202 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:32:53,813 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:32:53,813 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 20:32:54,851 - dag_nodes - INFO - [InferenceNode] Processing: Not sure how I feel about this movie....
+2025-06-20 20:32:54,882 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 95.8%
+2025-06-20 20:32:54,882 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (95.8% < 99.5%). Triggering fallback...
+2025-06-20 20:32:54,882 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:32:57,998 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-20 20:32:59,031 - dag_nodes - INFO - [InferenceNode] Processing: The acting was good but the plot was confusing....
+2025-06-20 20:32:59,101 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 94.0%
+2025-06-20 20:32:59,102 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (94.0% < 99.5%). Triggering fallback...
+2025-06-20 20:32:59,102 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:33:00,917 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-20 20:33:11,748 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:33:11,748 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:33:13,576 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:33:13,576 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:33:14,164 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:33:14,164 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:33:14,178 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:33:14,233 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:33:14,234 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (99.1% < 99.5%). Triggering fallback...
+2025-06-20 20:33:14,234 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:33:24,549 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-20 20:33:25,566 - dag_nodes - INFO - [InferenceNode] Processing: This film was okay I guess....
+2025-06-20 20:33:25,616 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.6%
+2025-06-20 20:33:25,616 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (88.6% < 99.5%). Triggering fallback...
+2025-06-20 20:33:25,616 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:33:46,703 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:33:46,705 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 20:33:47,734 - dag_nodes - INFO - [InferenceNode] Processing: Not sure how I feel about this movie....
+2025-06-20 20:33:47,766 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 95.8%
+2025-06-20 20:33:47,766 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (95.8% < 99.5%). Triggering fallback...
+2025-06-20 20:33:47,766 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:33:49,462 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:33:49,462 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 20:35:43,436 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:35:43,436 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:35:44,370 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:35:44,370 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:35:44,837 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:35:44,837 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:35:44,852 - dag_nodes - INFO - [InferenceNode] Processing: This movie is absolutely amazing and brilliant!...
+2025-06-20 20:35:45,165 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.9%
+2025-06-20 20:35:45,165 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.9% >= 70.0%)
+2025-06-20 20:36:41,216 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:36:41,216 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:36:41,919 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:36:41,919 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:36:42,370 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:36:42,370 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:36:42,380 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:36:42,434 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:36:42,434 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (99.1% < 99.5%). Triggering fallback...
+2025-06-20 20:36:42,434 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:36:50,989 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-20 20:36:52,020 - dag_nodes - INFO - [InferenceNode] Processing: This film was okay I guess....
+2025-06-20 20:36:52,067 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.6%
+2025-06-20 20:36:52,067 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (88.6% < 99.5%). Triggering fallback...
+2025-06-20 20:36:52,067 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:37:26,167 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-20 20:37:27,188 - dag_nodes - INFO - [InferenceNode] Processing: Not sure how I feel about this movie....
+2025-06-20 20:37:27,233 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 95.8%
+2025-06-20 20:37:27,233 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (95.8% < 99.5%). Triggering fallback...
+2025-06-20 20:37:27,233 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:37:34,433 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-20 20:37:34,433 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-20 20:37:35,454 - dag_nodes - INFO - [InferenceNode] Processing: The acting was good but the plot was confusing....
+2025-06-20 20:37:35,499 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 94.0%
+2025-06-20 20:37:35,499 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (94.0% < 99.5%). Triggering fallback...
+2025-06-20 20:37:35,499 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-20 20:37:51,133 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-20 20:38:06,032 - dag_workflow - INFO - Building classification DAG...
+2025-06-20 20:38:06,033 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:38:06,833 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:38:06,833 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-20 20:38:07,348 - model_wrapper - INFO - Model loaded successfully
+2025-06-20 20:38:07,364 - dag_workflow - INFO - DAG built successfully
+2025-06-20 20:38:34,313 - dag_nodes - INFO - [InferenceNode] Processing: The movie was painfully slow and boring....
+2025-06-20 20:38:34,419 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 99.1%
+2025-06-20 20:38:34,420 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.1% >= 70.0%)
+2025-06-20 20:39:10,820 - dag_nodes - INFO - [InferenceNode] Processing: The acting was poor and the dialogue felt forced a...
+2025-06-20 20:39:10,891 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 97.8%
+2025-06-20 20:39:10,891 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (97.8% >= 70.0%)
+2025-06-20 20:39:31,149 - dag_nodes - INFO - [InferenceNode] Processing: one of the best and worst movie i have seen this y...
+2025-06-20 20:39:31,232 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 97.4%
+2025-06-20 20:39:31,233 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (97.4% >= 70.0%)
+2025-06-20 20:39:57,417 - dag_nodes - INFO - [InferenceNode] Processing: One of the best movie i have seen this year...
+2025-06-20 20:39:57,496 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 99.7%
+2025-06-20 20:39:57,497 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (99.7% >= 70.0%)
+2025-06-20 20:40:03,387 - dag_nodes - INFO - [InferenceNode] Processing: super...
+2025-06-20 20:40:03,442 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 79.3%
+2025-06-20 20:40:03,443 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (79.3% >= 70.0%)
+2025-06-20 20:40:20,305 - dag_nodes - INFO - [InferenceNode] Processing: worst as well as best movie...
+2025-06-20 20:40:20,367 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 89.5%
+2025-06-20 20:40:20,367 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (89.5% >= 70.0%)
+2025-06-25 01:29:45,639 - dag_workflow - INFO - Building classification DAG...
+2025-06-25 01:29:45,639 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-25 01:29:46,898 - model_wrapper - INFO - Model loaded successfully
+2025-06-25 01:29:46,898 - model_wrapper - INFO - Loading model from ./fine_tuned_model
+2025-06-25 01:29:47,300 - model_wrapper - INFO - Model loaded successfully
+2025-06-25 01:29:47,304 - dag_workflow - INFO - DAG built successfully
+2025-06-25 01:30:10,440 - dag_nodes - INFO - [InferenceNode] Processing: negative...
+2025-06-25 01:30:10,654 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 70.3%
+2025-06-25 01:30:10,658 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (70.3% >= 70.0%)
+2025-06-25 01:30:16,291 - dag_nodes - INFO - [InferenceNode] Processing: positive...
+2025-06-25 01:30:16,338 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 81.6%
+2025-06-25 01:30:16,343 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (81.6% >= 70.0%)
+2025-06-25 01:30:36,756 - dag_nodes - INFO - [InferenceNode] Processing: py run_demo.py...
+2025-06-25 01:30:36,818 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 58.6%
+2025-06-25 01:30:36,820 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (58.6% < 70.0%). Triggering fallback...
+2025-06-25 01:30:36,822 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-25 01:30:42,903 - dag_nodes - INFO - [FallbackNode] Final label from user: NEGATIVE
+2025-06-25 01:30:47,522 - dag_nodes - INFO - [InferenceNode] Processing: positive...
+2025-06-25 01:30:47,569 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 81.6%
+2025-06-25 01:30:47,569 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (81.6% >= 70.0%)
+2025-06-25 01:30:56,947 - dag_nodes - INFO - [InferenceNode] Processing: py main.py...
+2025-06-25 01:30:57,007 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 51.3%
+2025-06-25 01:30:57,008 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (51.3% < 70.0%). Triggering fallback...
+2025-06-25 01:30:57,010 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-25 01:31:17,899 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-25 01:31:46,484 - dag_nodes - INFO - [InferenceNode] Processing: not good but not greate either....
+2025-06-25 01:31:46,541 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 81.5%
+2025-06-25 01:31:46,543 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (81.5% >= 70.0%)
+2025-06-25 01:32:07,211 - dag_nodes - INFO - [InferenceNode] Processing: meh...
+2025-06-25 01:32:07,246 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 60.2%
+2025-06-25 01:32:07,246 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (60.2% < 70.0%). Triggering fallback...
+2025-06-25 01:32:07,246 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-25 01:32:15,267 - dag_nodes - INFO - [FallbackNode] Using backup classifier
+2025-06-25 01:32:15,267 - dag_nodes - INFO - [FallbackNode] Backup prediction: NEUTRAL | Confidence: 50.0%
+2025-06-25 01:32:46,295 - dag_nodes - INFO - [InferenceNode] Processing: the movie was greate but people didnt make hit at ...
+2025-06-25 01:32:46,373 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 61.9%
+2025-06-25 01:32:46,373 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence too low (61.9% < 70.0%). Triggering fallback...
+2025-06-25 01:32:46,375 - dag_nodes - INFO - [FallbackNode] Fallback activated
+2025-06-25 01:33:06,137 - dag_nodes - INFO - [FallbackNode] Final label from user: POSITIVE
+2025-06-25 01:33:28,540 - dag_nodes - INFO - [InferenceNode] Processing: the movie was good...
+2025-06-25 01:33:28,589 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 97.3%
+2025-06-25 01:33:28,589 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (97.3% >= 70.0%)
+2025-06-25 01:33:50,041 - dag_nodes - INFO - [InferenceNode] Processing: the movie didnt go well for me...
+2025-06-25 01:33:50,098 - dag_nodes - INFO - [InferenceNode] Predicted label: NEGATIVE | Confidence: 90.9%
+2025-06-25 01:33:50,103 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (90.9% >= 70.0%)
+2025-06-25 01:33:59,401 - dag_nodes - INFO - [InferenceNode] Processing: ok ish movie...
+2025-06-25 01:33:59,458 - dag_nodes - INFO - [InferenceNode] Predicted label: POSITIVE | Confidence: 88.2%
+2025-06-25 01:33:59,460 - dag_nodes - INFO - [ConfidenceCheckNode] Confidence acceptable (88.2% >= 70.0%)
